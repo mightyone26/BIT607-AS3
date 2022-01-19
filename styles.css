@@ -1,0 +1,267 @@
+span {
+    color: brown;
+}
+
+body,
+h1 {
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#backGroundImage {
+    background-image: url(images/art.png);
+    background-size: cover;
+}
+
+/* Nav Bar */
+#mainHeader {
+    width: 100%;
+    background: rgba(238, 238, 238, 0.301);
+    color: rgb(83, 99, 143);
+    text-align: center;
+
+}
+
+#mainNav li {
+    display: inline;
+    padding: 1% 1%;
+    text-align: center;
+}
+
+#mainNav a {
+    color: rgb(59, 54, 0);
+    text-decoration: none;
+
+}
+
+#mainNav li:hover {
+    background: rgba(197, 220, 240, 0.185);
+}
+
+/* INDEX PAGE */
+.introducing {
+    text-align: center;
+}
+
+.picDesciption {
+    font-size: 3.5vh;
+    color: rgb(59, 54, 0);
+    background: rgba(238, 238, 238, 0.301);
+    text-align: center;
+}
+
+.containerDetailsIndex {
+    display: grid;
+    padding: 1% 2%;
+    grid-template-columns: auto auto;
+    grid-gap: 1%;
+}
+
+.containerDetailsIndex img {
+    width: 95%;
+    height: 95%;
+}
+
+/* About Us PAGE */
+.containerDetailsAboutUs {
+    display: grid;
+    padding: 2% 1%;
+    grid-template-columns: auto auto;
+    width: 95%;
+    grid-gap: 2%;
+}
+
+.containerDetailsAboutUs iframe {
+    padding: 2% 2%;
+}
+
+/* MENU PAGE */
+.menu h3 {
+    text-align: center;
+    color: rgb(88, 68, 12);
+}
+
+.menu p {
+    text-align: center;
+    color: rgb(53, 38, 6);
+}
+
+.menu h4 {
+    text-align: center;
+    color: rgb(130, 169, 219);
+}
+
+.containerDetailsMenu {
+    display: grid;
+    padding: 2% 2%;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+    width: 95%;
+}
+
+/* Reservation page */
+.formReserve {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 25px;
+}
+
+/* Contact Page */
+.containerDetailsContact {
+    display: grid;
+    padding-left: 15%;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.gridItemContact iframe {
+    width: 50%;
+}
+
+/* Staff Page */
+.formStaff {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 1%;
+}
+.formStaffDetails{
+    padding-left: 25%;
+    width: 100%;
+}
+
+/* Privacy Page */
+.containerDetailsPrivacy {
+    display: grid;
+    padding: 2% 2%;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+    width: 95%;
+}
+
+#Footer {
+    margin: auto;
+    width: 100%;
+    background: rgba(238, 238, 238, 0.301);
+    color: rgb(83, 99, 143);
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+
+    /* Nav Bar */
+    #mainHeader {
+        width: 100%;
+        font-size: 2vh;
+    }
+
+    #mainHeader img {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    #mainNav li {
+        font-size: 2.5vh;
+        font-weight: bold;
+        padding: 1% 1%;
+        text-align: center;
+    }
+
+    #mainNav ul {
+        padding: 0% 0%;
+        margin: 0%;
+    }
+
+    #mainNav a {
+        color: rgb(56, 13, 2);
+        text-decoration: none;
+    }
+
+    /* Index Page */
+    .picDesciption {
+        font-size: 1.5vh;
+        color: rgb(51, 44, 110);
+        background: rgba(238, 238, 238, 0.301);
+        text-align: center;
+    }
+
+    .containerDetailsIndex {
+        display: grid;
+        padding: 1% 2%;
+        grid-template-columns: auto auto;
+        grid-gap: 1%;
+    }
+
+    .containerDetailsIndex img {
+        width: 75%;
+        height: 75%;
+    }
+
+    /* About Us Page */
+    .containerDetailsAboutUs {
+        display: grid;
+        padding: 1% 1%;
+        grid-template-columns: auto;
+        width: 95%;
+    }
+
+    .containerDetailsAboutUs iframe {
+        width: 95%;
+        padding: 1% 1%;
+    }
+
+    .containerDetailsAboutUs br {
+        display: none;
+    }
+
+    /* Reservation Page */
+    .formReserve {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    /* Menu Page */
+    .containerDetailsMenu img {
+        display: none;
+    }
+
+    /* Contact Page */
+    .containerDetailsContact {
+        display: grid;
+        padding-left: 1%;
+        grid-template-columns: auto;
+        width: 98%;
+
+    }
+
+    .grid-item-Contact iframe {
+        width: 25%;
+    }
+
+    /* Staff Page */
+    .formStaff {
+        width: 75%;
+        padding-left: 1%;
+        padding-left: 10%;
+    }
+
+    .containerDetailsPrivacy {
+        width: 80%;
+        padding-left: 4%;
+    }
+    .formStaffDetails{
+        padding-left: 10%;
+        width: 25%;
+    }
+
+    /* Privacy Page */
+    .containerDetailsPrivacy {
+        display: grid;
+        padding: 1% 1%;
+        grid-template-columns: auto;
+        width: 95%;
+    }
+
+    .containerDetailsPrivacy img {
+        display: none;
+    }
+}
